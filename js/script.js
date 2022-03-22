@@ -1,4 +1,6 @@
-// console.log(+'ghbdtn' + 66);
 
-// let n = 2;
-console.log(8%2);
+
+function random(min, max) {
+            return Math.ceil(min + Math.random()*(max-min));
+}
+console.log(random(1, 100));
